@@ -36,15 +36,15 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("EventTypeId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
@@ -81,8 +81,8 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -111,11 +111,11 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -149,11 +149,11 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -195,8 +195,8 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -221,11 +221,11 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Message")
                         .IsRequired()
@@ -255,12 +255,12 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("LastName")
                         .IsRequired()
@@ -292,11 +292,11 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("InvitationId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("SeatNumber")
                         .IsRequired()
@@ -324,12 +324,12 @@ namespace EventPR.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime?>("DeletedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeletet")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()

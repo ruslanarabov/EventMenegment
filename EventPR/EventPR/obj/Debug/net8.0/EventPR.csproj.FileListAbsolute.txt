@@ -258,3 +258,4 @@
 /Users/macbook/Desktop/Event/EventPR/EventPR/obj/Debug/net8.0/EventPR.pdb
 /Users/macbook/Desktop/Event/EventPR/EventPR/obj/Debug/net8.0/EventPR.genruntimeconfig.cache
 /Users/macbook/Desktop/Event/EventPR/EventPR/obj/Debug/net8.0/ref/EventPR.dll
+/Users/macbook/Desktop/Event/EventPR/EventPR/obj/Debug/net8.0/EventPR.sourcelink.json
